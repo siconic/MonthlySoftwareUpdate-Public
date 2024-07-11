@@ -1,6 +1,7 @@
 # MonthlySoftwareUpdate-Public
 
-MECM Monthly Software Update Script
+Monthly Software Update Script for SCCM (System Center Configuration Manager), MECM (Microsoft Endpoint Configuration Manager), 
+MCM (Microsoft Configuration Manager), or whatever else Microsoft is renaming it to this month.
 
 This script will automate ALL functions done during patching. It creates a folder structure for the updates, renames the Deployment package 
 in the ADR, Runs the ADR, Renames the Software Update Group, creates the deployments on a schedule, has customizable parameters for the 
